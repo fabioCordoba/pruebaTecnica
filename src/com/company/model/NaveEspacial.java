@@ -66,7 +66,11 @@ public  abstract  class NaveEspacial {
                 "actividad    : " + actividad + '\n' +
                 "paisOrigen   : " + paisOrigen + '\n' +
                 "combustibleAO: " + combustibleAO + '\n' +
-                "potencia     : " + potencia + "Toneladas\n" ;
+                "potencia     : " + potencia + " Toneladas\n"+
+                "----------------------------------------------";
     }
+
+    public abstract void misionEspacial();
+    public abstract void combustibleMision();
 
 }

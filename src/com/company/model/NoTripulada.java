@@ -4,6 +4,7 @@ public class NoTripulada  extends NaveEspacial{
 
     protected float capacidadCarga;
 
+
     public NoTripulada(String nombre, String actividad, String paisOrigen, String combustibleAO, float potencia, float capacidadCarga) {
         super(nombre, actividad, paisOrigen, combustibleAO, potencia);
         this.capacidadCarga = capacidadCarga;
@@ -21,7 +22,18 @@ public class NoTripulada  extends NaveEspacial{
                 "actividad     : " + actividad + '\n' +
                 "paisOrigen    : " + paisOrigen + '\n' +
                 "combustibleAO : " + combustibleAO + '\n' +
-                "potencia      : " + potencia + "Toneladas\n"+
-                "capacidadCarga: " + capacidadCarga+ '\n' ;
+                "potencia      : " + potencia + " Toneladas\n"+
+                "capacidadCarga: " + capacidadCarga+ '\n' +
+                "----------------------------------------------";
+    }
+
+    @Override
+    public void misionEspacial() {
+        System.out.println("Mision Espacial: estudiar otros cuerpos celestes\n");
+    }
+
+    @Override
+    public void combustibleMision() {
+        System.out.println("Esta nave utilizo "+ combustibleAO +'\n');
     }
 }
