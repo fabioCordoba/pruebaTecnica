@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 public  abstract  class NaveEspacial {
 
@@ -66,9 +66,7 @@ public  abstract  class NaveEspacial {
                 "actividad    : " + actividad + '\n' +
                 "paisOrigen   : " + paisOrigen + '\n' +
                 "combustibleAO: " + combustibleAO + '\n' +
-                "potencia     : " + potencia + '\n' ;
+                "potencia     : " + potencia + "Toneladas\n" ;
     }
 
-    public abstract void launch();
-    public abstract void stop();
 }

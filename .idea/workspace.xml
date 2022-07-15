@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1735bea5-bbec-4e73-acd8-f1c1790e89df" name="Changes" comment="" />
+    <list default="true" id="1735bea5-bbec-4e73-acd8-f1c1790e89df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/vehiculoslanzadera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/services/NavesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/NaveEspacial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/vehiculoslanzadera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NaveEspacial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/NaveEspacial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/vehiculoslanzadera.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +26,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BxDBbWQxcX4CtDduF4vvBYwImB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -79,6 +95,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Workshop-Abstractions-Interfaces-and-Polymorphism-main/WorkshopAbstractionsInterfacesPolymorphism" />
   </component>
   <component name="RunManager">
@@ -108,5 +125,16 @@
       <updated>1657838711007</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
