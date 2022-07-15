@@ -1,6 +1,8 @@
 package com.company.services;
 
 import com.company.model.NaveEspacial;
+import com.company.model.NoTripulada;
+import com.company.model.Tripulada;
 import com.company.model.vehiculoslanzadera;
 
 import java.util.ArrayList;
@@ -45,16 +47,26 @@ public class NavesService {
                 System.out.println("Digite la Capacidad de carga util de esta nave: ");
                 float capacidadCarga = Float.parseFloat(scanner.nextLine());
 
-                //System.out.println(nombre + ", " + actividad + ", " + paisOrigen + ", " + combustible + ", " +potencia + ", " + peso + ", " +altura+ ", " +capacidadCarga);
-
                 vehiculoslanzadera vehiculoslanzadera = new vehiculoslanzadera(altura, peso, capacidadCarga, nombre, actividad, paisOrigen, combustible, potencia);
                 naveEspacials.add(vehiculoslanzadera);
             }
             case 2 ->{
-                System.out.println("Naves no tripuladas: ");
+
+                System.out.println("Digite la Capacidad de carga util de esta nave: ");
+                float capacidadCarga = Float.parseFloat(scanner.nextLine());
+
+                NoTripulada noTripulada = new NoTripulada(nombre, actividad, paisOrigen, combustible, potencia, capacidadCarga);
+                naveEspacials.add(noTripulada);
             }
             case 3 ->{
-                System.out.println("naves especiales tripuladas: ");
+                System.out.println("Digite la Capacidad de tripulacion: ");
+                int capacidadTripulacion = Integer.parseInt(scanner.nextLine());
+
+                System.out.println("Digite peso de la nave: ");
+                float peso = Float.parseFloat(scanner.nextLine());
+
+                Tripulada tripulada = new Tripulada(nombre, actividad, paisOrigen, combustible, potencia, capacidadTripulacion, peso);
+                naveEspacials.add(tripulada);
             }
         }
         return null;

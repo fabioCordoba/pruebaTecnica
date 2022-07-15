@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1735bea5-bbec-4e73-acd8-f1c1790e89df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/vehiculoslanzadera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/services/NavesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/NoTripulada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Tripulada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/NaveEspacial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/vehiculoslanzadera.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/NaveEspacial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/NaveEspacial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/vehiculoslanzadera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/services/NavesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/services/NavesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/vehiculoslanzadera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/vehiculoslanzadera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/services/NavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/services/NavesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

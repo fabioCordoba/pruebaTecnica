@@ -24,6 +24,7 @@ public class vehiculoslanzadera extends NaveEspacial {
     @Override
     public String toString() {
         return
+                "Tipo          : Lanzadera" + '\n' +
                 "nombre        : " + nombre + '\n' +
                 "actividad     : " + actividad + '\n' +
                 "paisOrigen    : " + paisOrigen + '\n' +
