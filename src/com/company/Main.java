@@ -3,6 +3,9 @@ package com.company;
 import com.company.model.NaveEspacial;
 import com.company.services.NaveService;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -20,6 +23,8 @@ public class Main {
         while (menu){
 
             Scanner scanner = new Scanner(System.in);
+
+            naveService.limpiar();
             System.out.println("\n\t\tESTACION ESPACIAL SOFKA\n");
             System.out.println("1 Registrar Nave\n2 Listar Naves Registradas\n3 Busqueda\n4 Busqueda Avanzada");
             op = Integer.parseInt(scanner.nextLine());
@@ -45,6 +50,5 @@ public class Main {
         }
 
     }
-
 
 }

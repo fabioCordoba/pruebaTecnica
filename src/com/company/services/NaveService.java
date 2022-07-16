@@ -168,4 +168,13 @@ public class NaveService {
             }
         }
     }
+
+    public void limpiar(){
+        System.out.println("Presione Enter para continuar...");
+        new java.util.Scanner(System.in).nextLine();
+
+        for (int i = 0; i < 13; i++) {
+            System.out.println("\n");
+        }
+    }
 }
