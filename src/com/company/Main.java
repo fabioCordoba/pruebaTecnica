@@ -2,13 +2,14 @@ package com.company;
 
 import com.company.model.NaveEspacial;
 import com.company.services.NaveService;
-
-import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * @author Fabio Cordoba
+ * En esta clase principal del software se define un Array de tipo NaveEspacial y se general un bucle infinito
+ * que contiene el menu de opciones
+ */
 public class Main {
 
     public static void main(String[] args) {

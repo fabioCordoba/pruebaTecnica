@@ -1,5 +1,10 @@
 package com.company.model;
 
+/**
+ * @author Fabio Cordoba
+ * Esta es una clase Abstracta donde se definen los atributos y funciones de una NaveEspacial
+ */
+
 public  abstract  class NaveEspacial {
 
     public String nombre;
@@ -11,6 +16,14 @@ public  abstract  class NaveEspacial {
     public NaveEspacial() {
     }
 
+    /**
+     * Constructor de la entidad NaveEspacial
+     * @param nombre
+     * @param actividad
+     * @param paisOrigen
+     * @param combustibleAO
+     * @param potencia
+     */
     public NaveEspacial(String nombre, String actividad, String paisOrigen, String combustibleAO, float potencia) {
         this.nombre = nombre;
         this.actividad = actividad;
@@ -59,6 +72,12 @@ public  abstract  class NaveEspacial {
         this.potencia = potencia;
     }
 
+    /**
+     * Metodos Abstractos para las entidades NavesEspaciales
+     */
+    public abstract void misionEspacial();
+    public abstract void combustibleMision();
+
     @Override
     public String toString() {
         return
@@ -70,7 +89,6 @@ public  abstract  class NaveEspacial {
                 "----------------------------------------------";
     }
 
-    public abstract void misionEspacial();
-    public abstract void combustibleMision();
+
 
 }
