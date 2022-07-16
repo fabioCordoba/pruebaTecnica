@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1735bea5-bbec-4e73-acd8-f1c1790e89df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/interfaces/ISonda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/interfaces/ISonda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/NaveEspacial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/NaveEspacial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/NoTripulada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/NoTripulada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/Sonda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/Sonda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/Tripulada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/Tripulada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/VehiculoLanzadera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pruebaTecnica/com/company/model/VehiculoLanzadera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/NaveEspacial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/NaveEspacial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/NoTripulada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/NoTripulada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Sonda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Sonda.java" afterDir="false" />

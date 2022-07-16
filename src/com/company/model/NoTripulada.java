@@ -35,7 +35,7 @@ public class NoTripulada  extends NaveEspacial implements ISonda {
                 "actividad     : " + actividad + '\n' +
                 "paisOrigen    : " + paisOrigen + '\n' +
                 "combustibleAO : " + combustibleAO + '\n' +
-                "potencia      : " + potencia + " Toneladas\n"+
+                "potencia      : " + potencia + " kN\n"+
                 "capacidadCarga: " + capacidadCarga+ '\n' +
                 "----------------------------------------------";
     }

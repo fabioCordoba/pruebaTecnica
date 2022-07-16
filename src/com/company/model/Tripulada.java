@@ -41,7 +41,7 @@ public class Tripulada extends NaveEspacial{
                 "actividad            : " + actividad + '\n' +
                 "paisOrigen           : " + paisOrigen + '\n' +
                 "combustibleAO        : " + combustibleAO + '\n' +
-                "potencia             : " + potencia + "Toneladas\n"+
+                "potencia             : " + potencia + "kN\n"+
                 "capacidadTripulacion : " + capacidadTripulacion + " Personas\n" +
                 "peso                 : " + peso+ '\n'+
                 "----------------------------------------------" ;

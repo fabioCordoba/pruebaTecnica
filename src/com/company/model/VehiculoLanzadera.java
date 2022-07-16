@@ -34,7 +34,7 @@ public class VehiculoLanzadera extends NaveEspacial {
                 "actividad     : " + actividad + '\n' +
                 "paisOrigen    : " + paisOrigen + '\n' +
                 "combustibleAO : " + combustibleAO + '\n' +
-                "potencia      : " + potencia + " Toneladas\n"+
+                "potencia      : " + potencia + " kN\n"+
                 "altura        : " + altura + '\n' +
                 "peso          : " + peso + '\n' +
                 "capacidadCarga: " + capacidadCarga+ '\n'+
