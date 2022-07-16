@@ -1,6 +1,8 @@
 package com.company.model;
 
-public class NoTripulada  extends NaveEspacial{
+import com.company.interfaces.ISonda;
+
+public class NoTripulada  extends NaveEspacial implements ISonda {
 
     protected float capacidadCarga;
 
@@ -29,11 +31,22 @@ public class NoTripulada  extends NaveEspacial{
 
     @Override
     public void misionEspacial() {
-        System.out.println("Mision Espacial: estudiar otros cuerpos celestes\n");
+        System.out.println("Mision Espacial: estudiar otros cuerpos celestes");
+        System.out.println(enviarDatos("Baterias y celdas solares"));
     }
 
     @Override
     public void combustibleMision() {
-        System.out.println("Esta nave utilizo "+ combustibleAO +'\n');
+        System.out.println("Esta nave utilizo "+ combustibleAO +" como combustible\n");
+    }
+
+    @Override
+    public String enviarDatos(String data) {
+        return "Estado del envio: \n"+data+"\ndesde nave no tripulada "+ nombre + " con carga util de " +capacidadCarga+" Toneladas\n";
+    }
+
+    @Override
+    public String calcularOrbita(String data) {
+        return null;
     }
 }

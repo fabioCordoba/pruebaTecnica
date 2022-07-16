@@ -1,16 +1,13 @@
 package com.company.services;
 
-import com.company.model.NaveEspacial;
-import com.company.model.NoTripulada;
-import com.company.model.Tripulada;
-import com.company.model.VehiculoLanzadera;
+import com.company.model.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class NaveService {
 
-    private int tp;
+    private int tp, par;
     ArrayList<NaveEspacial> naveEspacials = new ArrayList<>();
 
     public Void CrearNave(){
@@ -33,7 +30,7 @@ public class NaveService {
         System.out.println("Digite la potencia: ");
         float potencia = Float.parseFloat(scanner.nextLine());
 
-        System.out.println("\n\tTipo de Nave\n\n1 Vehiculo Lanzadera \n2 Naves no tripuladas \n3 naves especiales tripuladas");
+        System.out.println("\n\tTipo de Nave\n\n1 Vehiculo Lanzadera \n2 Naves no tripuladas \n3 naves especiales tripuladas\n4 Sonda Espacial");
         tp = Integer.parseInt(scanner.nextLine());
 
         switch (tp){
@@ -74,6 +71,13 @@ public class NaveService {
                 Tripulada tripulada = new Tripulada(nombre, actividad, paisOrigen, combustible, potencia, capacidadTripulacion, peso, cantCombustible);
                 naveEspacials.add(tripulada);
             }
+            case 4->{
+                System.out.println("Digite el Destino de la Sonda: ");
+                String destino = scanner.nextLine();
+
+                Sonda sonda = new Sonda(nombre, actividad, paisOrigen, combustible, potencia,destino);
+                naveEspacials.add(sonda);
+            }
         }
         return null;
     }
@@ -87,9 +91,81 @@ public class NaveService {
         }
     }
 
-    public void clear(){
+    public void Busqueda(){
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("test");
+        String parametro;
 
+        System.out.println("\n\t\tBusqueda Simple\n");
+        System.out.println("Digite Nombre de Nave: ");
+        String sea = scanner.nextLine();
+
+        System.out.println("\n\t\tResultados de la Busqueda\n");
+        for (int i = 0; i < naveEspacials.size(); i++) {
+            if(naveEspacials.get(i).getNombre().equals(sea)){
+                naveEspacials.get(i).misionEspacial();
+                naveEspacials.get(i).combustibleMision();
+                System.out.println(naveEspacials.get(i).toString());
+            }
+        }
+
+    }
+
+    public void BusquedaAvanzada(){
+        String parametro;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\n\t\tBusqueda Avanzada4:\n1 nombre\n2 actividad\n3 paisOrigen\n4 combustibleAO");
+        par = Integer.parseInt(scanner.nextLine());
+        System.out.println("Digite palabra: ");
+        String sea = scanner.nextLine();
+
+        switch (par){
+            case 1 ->{
+                parametro = "nombre";
+                System.out.println("\n\t\tResultados de la Busqueda\n");
+                for (int i = 0; i < naveEspacials.size(); i++) {
+                    if(naveEspacials.get(i).getNombre().equals(sea)){
+                        naveEspacials.get(i).misionEspacial();
+                        naveEspacials.get(i).combustibleMision();
+                        System.out.println(naveEspacials.get(i).toString());
+                    }
+                }
+
+            }
+            case 2 ->{
+                parametro = "actividad";
+                System.out.println("\n\t\tResultados de la Busqueda\n");
+                for (int i = 0; i < naveEspacials.size(); i++) {
+                    if(naveEspacials.get(i).getActividad().equals(sea)){
+                        naveEspacials.get(i).misionEspacial();
+                        naveEspacials.get(i).combustibleMision();
+                        System.out.println(naveEspacials.get(i).toString());
+                    }
+                }
+            }
+            case 3 ->{
+                parametro = "paisOrigen";
+                System.out.println("\n\t\tResultados de la Busqueda\n");
+                for (int i = 0; i < naveEspacials.size(); i++) {
+                    if(naveEspacials.get(i).getPaisOrigen().equals(sea)){
+                        naveEspacials.get(i).misionEspacial();
+                        naveEspacials.get(i).combustibleMision();
+                        System.out.println(naveEspacials.get(i).toString());
+                    }
+                }
+            }
+            case 4 ->{
+                parametro = "combustibleAO";
+                System.out.println("\n\t\tResultados de la Busqueda\n");
+                for (int i = 0; i < naveEspacials.size(); i++) {
+                    if(naveEspacials.get(i).getCombustibleAO().equals(sea)){
+                        naveEspacials.get(i).misionEspacial();
+                        naveEspacials.get(i).combustibleMision();
+                        System.out.println(naveEspacials.get(i).toString());
+                    }
+                }
+            }
+        }
     }
 }

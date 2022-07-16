@@ -33,9 +33,13 @@ public class Tripulada extends NaveEspacial{
                 "----------------------------------------------" ;
     }
 
+    public String detallesMision(){
+        return "La tripulacion intenta enviar detalles de la mision a la base en Tierra";
+    }
+
     @Override
     public void misionEspacial() {
-        System.out.println("Mision Espacial: mandar seres humanos al espacio para tareas de reparacion, \nmantenimiento o investigacion, en misiones donde se precisa la destreza \ny de la toma de decisiones de personas, en detrimento de las máquinas\n");
+        System.out.println("Mision Espacial: mandar seres humanos al espacio para tareas de reparacion, \nmantenimiento o investigacion, en misiones donde se precisa la destreza \ny de la toma de decisiones de personas, en detrimento de las máquinas");
     }
 
     @Override

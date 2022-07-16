@@ -18,10 +18,10 @@ public class Main {
 
 
         while (menu){
-            naveService.clear();
+
             Scanner scanner = new Scanner(System.in);
             System.out.println("\n\t\tESTACION ESPACIAL SOFKA\n");
-            System.out.println("1 Registrar Nave\n2 Listar Naves Registradas");
+            System.out.println("1 Registrar Nave\n2 Listar Naves Registradas\n3 Busqueda\n4 Busqueda Avanzada");
             op = Integer.parseInt(scanner.nextLine());
 
             switch (op){
@@ -30,6 +30,12 @@ public class Main {
                 }
                 case 2 ->{
                     naveService.ListarNaves();
+                }
+                case 3 ->{
+                    naveService.Busqueda();
+                }
+                case 4 ->{
+                    naveService.BusquedaAvanzada();
                 }
 
                 default -> throw new IllegalStateException("Unexpected value: " + op);

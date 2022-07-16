@@ -39,13 +39,13 @@ public class VehiculoLanzadera extends NaveEspacial {
 
     @Override
     public void misionEspacial() {
-        System.out.println("Mision Espacial: Vehiculo de Lanzamiento\n");
+        System.out.println("Mision Espacial: Vehiculo de Lanzamiento");
     }
 
     @Override
     public void combustibleMision() {
         if (cantCombustible > 0){
-            System.out.println("Esta nave utilizo " + cantCombustible + "Galones de  combustible tipo "+ combustibleAO+'\n' );
+            System.out.println("Esta nave utilizo " + cantCombustible + " Galones de  combustible tipo "+ combustibleAO+'\n' );
         }
     }
 }
